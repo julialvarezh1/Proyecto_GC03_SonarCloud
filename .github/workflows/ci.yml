@@ -25,7 +25,7 @@ jobs:
 
       - name: Instalar pytest
         run: |
-          python -m pip install --upgrade --only-binary=:all: pip
+          python -m pip install --upgrade --only-binary=:all: pip==26.3
           python -m pip install --only-binary=:all: pytest
 
       - name: Ejecutar pruebas
